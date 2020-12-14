@@ -8,15 +8,30 @@
 /** Infolettres cinéma */
 /*** Cadre entier ***/
 .infolettre-cinéma {
-	border-width: 3px;
-	border-style: dashed;
-	border-color: green;
+	border:2px solid #008985;
+	background-color:#FFFFFF;
+	padding:O;
 }
 /*** Cadre du haut ***/
-.infolettre-cinéma .haut {
-	border:;
+.infolettre-cinéma .haut .haut-gauche {
+	background-color: #FFFFFF;
+	padding: 0 0 0 0px;
+	width: "100%";
 	font-family: "Courier New";
 }
+.infolettre-cinéma .haut .haut-droite {
+	font-size: 200%;
+	color: #008985;
+	font-weight: bold;
+}
+.infolettre-cinéma .modifier {
+	font-size: 91%;
+	background-color:transparent;
+}
+
+
+
+
 /*** Cadre du contenu */
 .infolettre-cinéma .contenu {
 	border:;
