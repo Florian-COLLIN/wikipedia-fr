@@ -43,8 +43,99 @@
 	padding:0.3em;
 	width:50%;
 }
-
-
+.infolettre-cinéma .nouvelles-projets-1 {
+	text-align: left;
+}
+.infolettre-cinéma .nouvelles-projets-2 {
+	width: 100%;
+}
+.infolettre-cinéma .tableau-nouveaux-projets {
+	background-color:transparent;
+	width: 100%;
+}
+.infolettre-cinéma .nouvelles {
+	border: 1px solid #008985;
+	background-color: transparent;
+}
+.infolettre-cinéma .nouvelles-text {
+	background: #D9E2FF;
+	border-bottom: 1px solid;
+	font-size: 130%;
+	text-align: left;
+	padding: 0.2em;
+}
+.infolettre-cinéma .tableau-nouvelles {
+	background-color: transparent;
+}
+.infolettre-cinéma .encyclopédie,
+.infolettre-cinéma .projet {
+	padding-left: 10px;
+	font-weight:bold;
+}
+.incolettre-cinéma .interview {
+	background: #D9E2FF;
+	border-bottom: 1px solid;
+	border-top: 1px solid;
+	font-size: 130%;
+	text-align: left;
+	padding: 0.2em;
+}
+.infolettre-cinéma .sorties-tableaux {
+	border: 1px solid #008985;
+	background-color: transparent;
+	width: 40%;
+}
+.infolettre-cinéma .sorties-titres {
+	background: #D9E2FF;
+	border-bottom: 1px solid;
+	font-size: 130%;
+	text-align: left;
+	padding: 0.2em;
+}
+.infolettre-cinéma .sorties {
+	padding: .5em;
+}
+.infolettre-cinéma .sorties .textes {
+	font-size: 89%;
+	font-style: italic;
+}
+.infolettre-cinéma .article {
+	background: #D9E2FF;
+	border-bottom: 1px solid;
+	border-top: 1px solid;
+	font-size: 130%;
+	text-align: left;
+	padding: 0.2em;
+}
+.infolettre-cinéma .image-titre {
+	background: #D9E2FF;
+	border-bottom: 1px solid;
+	border-top: 1px solid;
+	font-size: 130%;
+	text-align: left;
+	padding: 0.2em;
+}
+.infolettre-cinéma .image {
+	padding:.4em
+}
+.infolettre-cinéma .numéros-titre {
+	background: #D9E2FF;
+	border-bottom: 1px solid;
+	border-top: 1px solid;
+	font-size: 130%;
+	text-align: left;
+	padding: 0.2em;
+}
+.infolettre-cinéma .numéros {
+	padding: .4em;
+}
+.infolettre-cinéma .fin {
+	width: 100%;
+	font-size: 105%;
+	border: 1px solid #008985;
+	background-color:#60C7F7;
+	font-weight: bold;
+}
 
 
 /*** Cadre du contenu */
