@@ -3,15 +3,12 @@
  * Date : décembre 2020
  * 
  */
-/* Infolettres */
-/** Infolettres cinéma */
-/*** Cadre entier ***/
+/* Infolettre cinéma */
 .infolettre-cinéma {
 	border:2px solid #008985;
 	background-color:#FFFFFF;
 	padding:O;
 }
-/*** Cadre du haut ***/
 .infolettre-cinéma .haut .haut-gauche {
 	background-color: #FFFFFF;
 	padding: 0 0 0 0px;
@@ -136,24 +133,15 @@
 	background-color:#60C7F7;
 	font-weight: bold;
 }
-
-
-/*** Cadre du contenu */
-.infolettre-cinéma .contenu {
-	border:;
-}
-/*** Cadre de chaque section ***/
-.infolettre-cinéma .contenu .cadre {
-	border:;
-}
-/**** Titre du cadre de chaque section ****/
-.infolettre-cinéma .contenu .cadre .titre {
-	font-family: "Aileron";
-	font-variant: small-caps;
-}
-/**** Paragraphe du cadre de chaque section ****/
-.infolettre-cinéma .contenu .cadre p {
-	font-family: "Comic Sans MS";
+.infolettre-cinéma p {
+	font-family: "Times New Roman";
 	color: black;
-	text-align: justify;
 }
+.infolettre-cinéma li {
+	font-family: "Courier New";
+	color: black;
+}
+/* Infolettre Séries télévisées */
+.infolettre-ST
+/* Wikilmédia */
+.infolettre-Wikimédia
