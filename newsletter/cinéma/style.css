@@ -25,7 +25,7 @@
 .infolettre-cinéma .modifier {
 	font-size: 91%;
 	background-color: transparent;
-	test-align: right;
+	text-align: right;
 }
 .infolettre-cinéma .portail {
 	text-align: center;
@@ -118,7 +118,8 @@
 .infolettre-cinéma .image {
 	padding: .4em
 }
-.infolettre-cinéma .numéros {
+.infolettre-cinéma .autre {
+	font-size: smaller;
 	padding: .4em;
 }
 .infolettre-cinéma .fin {
@@ -131,65 +132,59 @@
 .infolettre-cinéma p {
 	font-family: "Times New Roman";
 	color: black;
+	text-align: justify;
 }
 .infolettre-cinéma li {
 	font-family: "Courier New";
 	color: black;
 }
-/* Infolettre Séries télévisées */
-/* Fait */
+/*****************************************************************************************************************
+  		== Séries télévisées ==
+******************************************************************************************************************/
 .infolettre-ST {
 	border: 3px solid;
 	border-color: #FF3333;
 	background-color: #F1EAEA;
 	padding: O;
 }
-/* Fait */
 .infolettre-ST .image {
 	width: 90%;
 	background-color: #DADADA;
 	padding: 0 0 0 0px;
 }
-/* Fait */
 .infolettre-ST .titre {
 	font-size: 250%;
 	color: #1DB5B1;
 	font-weight: bold;
 	text-transform : uppercase;
 }
-/*************************************************************************************************************************************/
 .infolettre-ST .numéro {
-	color:black;
-	font-size:110%;
-	font-style:italic
+	color: black;
+	font-size: 130%;
+	font-style: italic;
+	font-weight: bold;
 }
-/* Fait */
 .infolettre-ST .numéro .small {
 	fonr-size: smaller;
 }
-/* Fait */
 .infolettre-ST .modifier {
 	font-size: 80%;
 	background-color: transparent;
 	text-align: right;
 }
-/* Fait */
 .infolettre-ST .milieu {
 	width: 100%;
 }
-/* Fait */
 .infolettre-ST .cadres {
 	background-color: transparent;
 	width: 100%;
 }
-/*************************************************************************************************************************************/
 .infolettre-ST .gauche {
 	width: 60%;
-	border: 1px solid;
+	border: 2px solid;
 	border-color: #008985;
 	background-color: transparent;
 }
-/*************************************************************************************************************************************/
 .infolettre-ST .cadre {
 	background: #D9E2FF;
 	border-bottom:1px solid;
@@ -197,22 +192,9 @@
 	text-align: left;
 	padding: 0.2em;
 }
-/*************************************************************************************************************************************/
-/*************************************************************************************************************************************/
 .infolettre-ST .édito,
 .infolettre-ST .stats,
-.infolettre-ST .news {
-	border: 1px solid;
-	border-color: #008985;
-	background-color: transparent;
-	width: 60%;
-}
-/*************************************************************************************************************************************/
-.infolettre-ST .autre {
-	padding: .4em;
-}
-/*************************************************************************************************************************************/
-/*************************************************************************************************************************************/
+.infolettre-ST .news,
 .infolettre-ST .sorties,
 .infolettre-ST .article,
 .infolettre-ST .image {
@@ -222,18 +204,17 @@
 	font-size: 130%;
 	padding: 0.2em;
 }
-/*************************************************************************************************************************************/
-/* Fait */
+.infolettre-ST .autre {
+	font-size: smaller;
+	padding: .3em;
+}
 .infolettre-ST p {
 	font-family: "Times New Roman";
 	color: black;
 	text-align: justify;
 }
-/* Fait */
 .infolettre-ST li {
 	font-family: "Courier New";
 	color: black;
 	text-align: justify;
 }
-/* Wikilmédia */
-.infolettre-Wikimédia
