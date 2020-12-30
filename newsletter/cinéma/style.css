@@ -31,10 +31,10 @@
 	text-align: center;
 }
 .infolettre-cinéma .portail .portail-cinéma {
-	border:solid 1px #008985;
-	background-color:#60C7F7;
-	padding:0.3em;
-	width:50%
+	border: solid 1px #008985;
+	background-color: #60C7F7;
+	padding: 0.3em;
+	width: 50%
 }
 .infolettre-cinéma .portail .portail-réal-audio {
 	border:solid 1px #008985;
@@ -55,8 +55,9 @@
 .infolettre-cinéma .nouvelles {
 	border: 1px solid #008985;
 	background-color: transparent;
+	width: 60%;
 }
-.infolettre-cinéma .nouvelles-text {
+.infolettre-cinéma .nouvelles-texte {
 	background: #D9E2FF;
 	border-bottom: 1px solid;
 	font-size: 130%;
@@ -64,6 +65,7 @@
 	padding: 0.2em;
 }
 .infolettre-cinéma .tableau-nouvelles {
+	width: 100%;
 	background-color: transparent;
 }
 .infolettre-cinéma .encyclopédie,
