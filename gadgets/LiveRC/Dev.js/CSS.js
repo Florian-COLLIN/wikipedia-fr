@@ -3,7 +3,8 @@
   Styles CSS de LiveRC personnalisables 
 
 {{Catégorisation JS|LiveRC}}
-<source lang=javascript>
+
+<syntaxhighlight lang="javascript">
 *********************************************************** */
 
   var lrcCSSstyles = [ 

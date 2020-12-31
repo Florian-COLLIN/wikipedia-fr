@@ -5,7 +5,11 @@
  * Description : cette feuille de styles inclue les différentes règles CSS, des infolettres de 2021.
  * Elle a été écrite avant sa publication sur [https://github.com/Florian-COLLIN/wikipedia-fr/tree/cin%C3%A9ma/newsletter/cin%C3%A9ma GitHub]
  */
-/* Infolettre cinéma */
+/*****************************************************************************************************************
+
+		== Cinéma ==
+
+******************************************************************************************************************/
 .infolettre-cinéma {
 	border: 2px solid #008985;
 	background-color: #FFFFFF;
@@ -43,7 +47,7 @@
 	width:50%;
 }
 .infolettre-cinéma .nouvelles-projets-1 {
-	text-align: left;
+	text-align: justify;
 }
 .infolettre-cinéma .nouvelles-projets-2 {
 	width: 100%;
@@ -141,7 +145,9 @@
 	color: black;
 }
 /*****************************************************************************************************************
+
   		== Séries télévisées ==
+
 ******************************************************************************************************************/
 .infolettre-ST {
 	border: 3px solid;
@@ -174,6 +180,9 @@
 	background-color: transparent;
 	text-align: right;
 }
+.infolettre-ST .début {
+	text-align: justify;
+}
 .infolettre-ST .milieu {
 	width: 100%;
 }
@@ -190,18 +199,6 @@
 .infolettre-ST .cadre {
 	background: #D9E2FF;
 	border-bottom:1px solid;
-	font-size: 130%;
-	text-align: left;
-	padding: 0.2em;
-}
-.infolettre-ST .édito,
-.infolettre-ST .stats,
-.infolettre-ST .news,
-.infolettre-ST .sorties,
-.infolettre-ST .article,
-.infolettre-ST .image {
-	background: #D9E2FF;
-	border-bottom: 1px solid;
 	border-top: 1px solid;
 	font-size: 130%;
 	padding: 0.2em;
@@ -209,6 +206,32 @@
 .infolettre-ST .autre {
 	font-size: smaller;
 	padding: .3em;
+}
+.infolettre-ST .tableau-nouvelles {
+	width: 100%;
+	background-color: transparent;
+}
+.infolettre-ST .encyclopédie,
+.infolettre-ST .projet {
+	padding-left: 10px;
+	font-weight:bold;
+}
+.infolettre-ST .sorties {
+	padding: .5em;
+}
+.infolettre-ST .sorties .textes {
+	font-size: 89%;
+	font-style: italic;
+}
+.infolettre-ST .fin {
+	width: 100%;
+	font-size: 105%;
+	border: 1px solid #008985;
+	background-color:#60C7F7;
+	font-weight: bold;
+}
+.infolettre-ST .image-fin {
+	padding: .4em;
 }
 .infolettre-ST p {
 	font-family: "Times New Roman";
