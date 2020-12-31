@@ -1,4 +1,4 @@
-/* Auteur : Florian COLLIN
+/* Auteur : {{u|Florian COLLIN}}
  * 
  * Date : décembre 2020
  * 
@@ -10,74 +10,74 @@
 		== Cinéma ==
 
 ******************************************************************************************************************/
-.infolettre-cinéma {
+.infolettre-cinema {
 	border: 2px solid #008985;
 	background-color: #FFFFFF;
-	padding: O;
+	padding: 0;
 }
-.infolettre-cinéma .haut-gauche {
+.infolettre-cinema .haut-gauche {
 	background-color: #FFFFFF;
 	padding: 0 0 0 0px;
-	width: "100%";
+	width: 100%;
 	font-family: "Courier New";
 }
-.infolettre-cinéma .haut-droite {
+.infolettre-cinema .haut-droite {
 	font-size: 200%;
 	color: #008985;
 	font-weight: bold;
 }
-.infolettre-cinéma .modifier {
+.infolettre-cinema .modifier {
 	font-size: 91%;
 	background-color: transparent;
 	text-align: right;
 }
-.infolettre-cinéma .portail {
+.infolettre-cinema .portail {
 	text-align: center;
 }
-.infolettre-cinéma .portail .portail-cinéma {
+.infolettre-cinema .portail .portail-cinema {
 	border: solid 1px #008985;
 	background-color: #60C7F7;
 	padding: 0.3em;
 	width: 50%
 }
-.infolettre-cinéma .portail .portail-réal-audio {
-	border:solid 1px #008985;
-	background-color:#60C7F7;
-	padding:0.3em;
-	width:50%;
+.infolettre-cinema .portail .portail-real-audio {
+	border: solid 1px #008985;
+	background-color: #60C7F7;
+	padding: 0.3em;
+	width: 50%;
 }
-.infolettre-cinéma .nouvelles-projets-1 {
+.infolettre-cinema .nouvelles-projets-1 {
 	text-align: justify;
 }
-.infolettre-cinéma .nouvelles-projets-2 {
+.infolettre-cinema .nouvelles-projets-2 {
 	width: 100%;
 }
-.infolettre-cinéma .tableau-nouveaux-projets {
+.infolettre-cinema .tableau-nouveaux-projets {
 	background-color:transparent;
 	width: 100%;
 }
-.infolettre-cinéma .nouvelles {
+.infolettre-cinema .nouvelles {
 	border: 1px solid #008985;
 	background-color: transparent;
 	width: 60%;
 }
-.infolettre-cinéma .nouvelles-texte {
+.infolettre-cinema .nouvelles-texte {
 	background: #D9E2FF;
 	border-bottom: 1px solid;
 	font-size: 130%;
 	text-align: left;
 	padding: 0.2em;
 }
-.infolettre-cinéma .tableau-nouvelles {
+.infolettre-cinema .tableau-nouvelles {
 	width: 100%;
 	background-color: transparent;
 }
-.infolettre-cinéma .encyclopédie,
-.infolettre-cinéma .projet {
+.infolettre-cinema .encyclopedie,
+.infolettre-cinema .projet {
 	padding-left: 10px;
 	font-weight:bold;
 }
-.incolettre-cinéma .interview {
+.infolettre-cinema .interview {
 	background: #D9E2FF;
 	border-bottom: 1px solid;
 	border-top: 1px solid;
@@ -85,26 +85,26 @@
 	text-align: left;
 	padding: 0.2em;
 }
-.infolettre-cinéma .sorties-tableaux {
+.infolettre-cinema .sorties-tableaux {
 	border: 1px solid #008985;
 	background-color: transparent;
 	width: 40%;
 }
-.infolettre-cinéma .sorties-titre {
+.infolettre-cinema .sorties-titre {
 	background: #D9E2FF;
 	border-bottom: 1px solid;
 	font-size: 130%;
 	text-align: left;
 	padding: 0.2em;
 }
-.infolettre-cinéma .sorties {
+.infolettre-cinema .sorties {
 	padding: .5em;
 }
-.infolettre-cinéma .sorties .textes {
+.infolettre-cinema .sorties .textes {
 	font-size: 89%;
 	font-style: italic;
 }
-.infolettre-cinéma .article {
+.infolettre-cinema .article {
 	background: #D9E2FF;
 	border-bottom: 1px solid;
 	border-top: 1px solid;
@@ -112,8 +112,8 @@
 	text-align: left;
 	padding: 0.2em;
 }
-.infolettre-cinéma .image-titre,
-.infolettre-cinéma .numéros-titre {
+.infolettre-cinema .image-titre,
+.infolettre-cinema .numeros-titre {
 	background: #D9E2FF;
 	border-bottom: 1px solid;
 	border-top: 1px solid;
@@ -121,26 +121,26 @@
 	text-align: left;
 	padding: 0.2em;
 }
-.infolettre-cinéma .image {
+.infolettre-cinema .image {
 	padding: .4em
 }
-.infolettre-cinéma .autre {
+.infolettre-cinema .autre {
 	font-size: smaller;
 	padding: .4em;
 }
-.infolettre-cinéma .fin {
+.infolettre-cinema .fin {
 	width: 100%;
 	font-size: 105%;
 	border: 1px solid #008985;
 	background-color:#60C7F7;
 	font-weight: bold;
 }
-.infolettre-cinéma p {
+.infolettre-cinema p {
 	font-family: "Times New Roman";
 	color: black;
 	text-align: justify;
 }
-.infolettre-cinéma li {
+.infolettre-cinema li {
 	font-family: "Courier New";
 	color: black;
 }
@@ -153,7 +153,6 @@
 	border: 3px solid;
 	border-color: #FF3333;
 	background-color: #F1EAEA;
-	padding: O;
 }
 .infolettre-ST .image {
 	width: 90%;
@@ -166,21 +165,21 @@
 	font-weight: bold;
 	text-transform : uppercase;
 }
-.infolettre-ST .numéro {
+.infolettre-ST .numero {
 	color: black;
 	font-size: 130%;
 	font-style: italic;
 	font-weight: bold;
 }
-.infolettre-ST .numéro .small {
-	fonr-size: smaller;
+.infolettre-ST .numero .small {
+	font-size: smaller;
 }
 .infolettre-ST .modifier {
 	font-size: 80%;
 	background-color: transparent;
 	text-align: right;
 }
-.infolettre-ST .début {
+.infolettre-ST .debut {
 	text-align: justify;
 }
 .infolettre-ST .milieu {
@@ -211,7 +210,7 @@
 	width: 100%;
 	background-color: transparent;
 }
-.infolettre-ST .encyclopédie,
+.infolettre-ST .encyclopedie,
 .infolettre-ST .projet {
 	padding-left: 10px;
 	font-weight:bold;
