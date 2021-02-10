@@ -86,16 +86,16 @@ With the understanding that:
 
 === Variables globales ===
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
   window.LiveRC_Version = "1.0.5";
   window.LiveRC_Version_Dev = "1.0.6-beta";
 
-/* </source>
+/* </syntaxhighlight>
 
 ==== Paramètres de LiveRC ====
 
-<source lang=javascript> */
+<syntaxhighlight lang="javascript"> */
 
   window.Custom_lrcParams = {};
 
@@ -148,11 +148,11 @@ With the understanding that:
     "BypassWatchdefault"      : true     // Ne pas ajouter automatiquement les pages modifiées à la liste de suivi
   };
 
-/* </source>
+/* </syntaxhighlight>
 
 ==== Options de démarrage ====
 
-<source lang=javascript> */
+<syntaxhighlight lang="javascript"> */
 
   window.Custom_lrcOptionMenuValues = {};
 
@@ -193,13 +193,13 @@ With the understanding that:
     "User_ShowAllReplaced"     : true     // Case "Toujours afficher les remplacements"
   };
 
-/* </source>
+/* </syntaxhighlight>
 
 ==== Textes de l'interface ====
 
 ===== Textes non traduits =====
 
-<source lang=javascript> */
+<syntaxhighlight lang="javascript"> */
 
   window.Custom_UnTranslatedTexts = {};
 
@@ -224,11 +224,11 @@ With the understanding that:
     RESUMESTART:            "[[WP:LRC|LiveRC]] : ",
     Comment:                "Personnalisation pour LiveRC"
   };
-/* </source>
+/* </syntaxhighlight>
 
 ===== Textes traduits =====
 
-<source lang=javascript> */
+<syntaxhighlight lang="javascript"> */
 
    // Textes
   window.lrcTexts = {};
@@ -240,11 +240,11 @@ With the understanding that:
   window.lrcTranslatedParamDesc = {};
   window.Custom_lrcTranslatedParamDesc = {};
 
-/* </source>
+/* </syntaxhighlight>
 
 ==== Icônes ====
 
-<source lang=javascript> */
+<syntaxhighlight lang="javascript"> */
 
   window.Custom_lrcIcons = {};
 
@@ -760,13 +760,13 @@ With the understanding that:
     }
   };
 
-/* </source>
+/* </syntaxhighlight>
 
 ==== Paramètres des fonctions automatiques ====
 
 ===== Avertissement =====
 
-<source lang=javascript> */
+<syntaxhighlight lang="javascript"> */
 
   window.Custom_lstAverto = [];
 
@@ -808,11 +808,11 @@ With the understanding that:
     { template: "Bienvenue IP méritante", string: "Bienvenue IP +"    , hasPage: false, addName: true,  addSectionTitle: false }
   ];
 
-/* </source>
+/* </syntaxhighlight>
 
 ===== Blanchiment =====
 
-<source lang=javascript> */
+<syntaxhighlight lang="javascript"> */
 
   window.Custom_lstBlank = [];
 
@@ -824,11 +824,11 @@ With the understanding that:
     {tooltip: "vandalisme"   , resume: "vandalisme"                                                }
   ];
 
-/* </source>
+/* </syntaxhighlight>
 
 ===== Révocation =====
 
-<source lang=javascript> */
+<syntaxhighlight lang="javascript"> */
 
   window.Custom_lrcRevertMessages = [];
 
@@ -839,11 +839,11 @@ With the understanding that:
     { resume: "Traduction automatique"                , text: "Trad auto"   }
   ];
 
-/* </source>
+/* </syntaxhighlight>
 
 ===== Bandeaux =====
 
-<source lang=javascript> */
+<syntaxhighlight lang="javascript"> */
 
   window.Custom_lstBando = [];
 
@@ -860,11 +860,11 @@ With the understanding that:
     { template: "Règle des 3 révocations"  , string: "R3R"                    , withDate: ""             }
   ];
 
-/* </source>
+/* </syntaxhighlight>
 
 ===== Requête aux administrateurs =====
 
-<source lang=javascript> */
+<syntaxhighlight lang="javascript"> */
 
   window.Custom_lstReport = [];
 
@@ -907,11 +907,11 @@ With the understanding that:
         }
     ];
 
-/* </source>
+/* </syntaxhighlight>
 
 ==== Boutons de suppression de lignes ====
 
-<source lang=javascript> */
+<syntaxhighlight lang="javascript"> */
 
   window.Custom_lrcSupprLineParams = [];
 
@@ -924,13 +924,13 @@ With the understanding that:
     {textid:"HIDE_LOG"      , color:"blue"             , class:"RcLog"      , separator:""  }
   ];
 
-/* </source>
+/* </syntaxhighlight>
 
 ==== Variables d'état (pour test sur rc.state) ====
 
 ===== Commentaire de modif =====
 
-<source lang=javascript> */
+<syntaxhighlight lang="javascript"> */
 
   window.Custom_commenttests = [];
 
@@ -944,11 +944,11 @@ With the understanding that:
     { state: "POPUPS"     , icon:"PopupsIcon",           class:"RcPopups",           regex: /(P|p)opups/,                        hide:false}
   ];
 
-/* </source>
+/* </syntaxhighlight>
 
 ===== Catégories de pages =====
 
-<source lang=javascript> */
+<syntaxhighlight lang="javascript"> */
 
   window.Custom_categoriestests = [];
 
@@ -961,11 +961,11 @@ With the understanding that:
     { state: "PAS"       , icon:"PaSIcon"      , class:"RcPaS",       regex: /Page proposée à la suppression/                 }
   ];
 
-/* </source>
+/* </syntaxhighlight>
 
 ===== Catégories d'utilisateurs =====
 
-<source lang=javascript> */
+<syntaxhighlight lang="javascript"> */
 
   window.Custom_watchCategories = [];
 
@@ -977,11 +977,11 @@ With the understanding that:
     { state: "PEDIAPROJECT"  , icon:"PediaProjectIcon"  , class:"RcPediaProject",  category: "Utilisateur projet pédagogique"       }
   ];
 
-/* </source>
+/* </syntaxhighlight>
 
 ===== Modèles =====
 
-<source lang=javascript> */
+<syntaxhighlight lang="javascript"> */
 
   window.Custom_templatestests = [];
 
@@ -1000,13 +1000,13 @@ With the understanding that:
     { state: "WIP"        , icon:"WIPIcon"      , class:"RcWIP"      , template: "En travaux"                      }
   ];
 
-/* </source>
+/* </syntaxhighlight>
 
 ==== Autres variables personnalisables ====
 
 ===== Extensions =====
 
-<source lang=javascript> */
+<syntaxhighlight lang="javascript"> */
 
   window.Custom_lrcExtensions = [];
 
@@ -1093,20 +1093,20 @@ With the understanding that:
   ];
 
 
-/* </source>
+/* </syntaxhighlight>
 
 ===== Styles CSS =====
 
 ; Voir [[MediaWiki:Gadget-LiveRC.js/CSS.js]]
 
-<source lang=javascript> */
+<syntaxhighlight lang="javascript"> */
 
 
-/* </source>
+/* </syntaxhighlight>
 
 ===== Onglets du menu de configuration =====
 
-<source lang=javascript> */
+<syntaxhighlight lang="javascript"> */
 
     // Config panel tabs
   window.Custom_lstParamMenuTabs = {};
@@ -1134,11 +1134,11 @@ With the understanding that:
     "lrcCSSstyles"           : true
   };
 
-/* </source>
+/* </syntaxhighlight>
 
 ==== Variables non personnalisables ====
 
-<source lang=javascript> */
+<syntaxhighlight lang="javascript"> */
 
 // Configuration
 
@@ -1643,13 +1643,13 @@ window.LiveRC_getSpecialCustom = function(){
 
   };
 
-/* </source>
+/* </syntaxhighlight>
 
 === Fonctions utilitaires ===
 
 ==== Ajax ====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.wpajax = {
   /* preloadReq.state
@@ -1729,11 +1729,11 @@ window.wpajax = {
   }
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ==== Hook functions ====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 // Ajout d'une fonction à un hook
 
@@ -1756,11 +1756,11 @@ window.LiveRC_RunHooks = function(Type, Params){
   return HookResult;
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ==== Fonctions d'état ====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.lrcHasState = function(state, thisState){
     if(!state) return false;
@@ -1780,11 +1780,11 @@ window.lrcRemoveState = function(state, thisState){
     return state;
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ==== Fonctions de suivi ====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 // Requête AJAX Ajout/Retrait d'un utilisateur ou d'une page du suivi
 
@@ -1856,11 +1856,11 @@ window.removePageFromSuivi = function(title){
   if(typeof(LiveRC_Config["SpecialLogListConfig"]["liveSuivi"]["Values"][title])=="undefined") return
   delete LiveRC_Config["SpecialLogListConfig"]["liveSuivi"]["Values"][title];
 };
-/* </source>
+/* </syntaxhighlight>
 
 ===== Hors LiveRC =====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 // Ajout du bouton de suivi d'utilisateur
 
@@ -1911,13 +1911,13 @@ window.LiveWatchInitButtons = function(Req, data) {
   lrcDisplayDebug('Add watch/hide links in tools panel : got user status (watched='+ThisIsContact+' ; hidden='+ThisIsHidden+')');
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ===== Dans LiveRC =====
 
 ====== Suivi de page ======
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 // Création du bouton de suivi de page
 
@@ -1982,11 +1982,11 @@ window.LiveRC_WatchArticle = function(page, watch, trid){
   }
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ====== Suivi d'utilisateur ======
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.lrcCreateWatchUserLink = function(user, watched, type, trID){
   var UnwatchLinkText = (type ? lrcGetMediawikiMessage("unwatch", true) : lrcMakeText("USER_UNWATCH_SHORT") );
@@ -2049,11 +2049,11 @@ window.LiveRC_WatchUser = function(uname, watch, trid) {
   }
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ====== Masquage d'utilisateur ======
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.lrcCreateHideUserLink = function(user, hidden, type, trID){
   var UnhideLinkText = (type ? lrcGetMediawikiMessage("show", true) : lrcMakeText("USER_UNHIDE_SHORT") );
@@ -2114,11 +2114,11 @@ window.LiveRC_HideUser = function(uname, hide, trid) {
   }
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ====== Masquage de page ======
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.lrcCreateHidePageLink = function(title, hidden, type, trID){
   var UnhideLinkText = (type ? lrcGetMediawikiMessage("show", true) : lrcMakeText("USER_UNHIDE_SHORT") );
@@ -2180,11 +2180,11 @@ window.LiveRC_HidePage = function(title, hide, trid) {
 };
 
 
-/* </source>
+/* </syntaxhighlight>
 
 ===== Remise à zéro des <code>notificationtimestamp</code> =====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.RAZnotificationtimestamps = function(){
   for(var title in LiveRC_Config["Notificationtimestamp"]){
@@ -2233,11 +2233,11 @@ window.RAZthisnotificationtimestampDone = function(Req, data){
   delete LiveRC_Config["Notificationtimestamp"][title];
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ==== Horloges ====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.lrcSetClocks = function(){
   var ClockSpanTitle = document.getElementById('ClockSpanTitle');
@@ -2386,11 +2386,11 @@ window.lrcSetTimerElement = function(el, val){
   el.style.backgroundPosition = posX+"px "+posY+"px";
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ==== Zones de déplacement et redimensionnement ====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 // Détermination du type de navigateur
 
@@ -2591,11 +2591,11 @@ window.LiveRC_SetTotalResizeZone = function(anchorNode, elementsToResize, Contai
   anchorNode.style.cursor = "se-resize";
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ==== Suggestions ====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.LiveRC_Suggest_UpDateLabel = function(InputNode, NewID){
      var OldId = InputNode.id;
@@ -2629,11 +2629,11 @@ window.LiveRC_Suggest_setVar = function(Args, id) {
     return LiveRC_Config["SuggestParams"][id][0];
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ===== Suggestions de page =====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.LiveRC_Suggest_AddPageSuggestion = function(Args){
      if(!Args) return;
@@ -2931,11 +2931,11 @@ window.LiveRC_Suggest_ReplacePageSuggestions = function(){
     }
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ===== Suggestions d'utilisateur =====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.LiveRC_Suggest_AddUserSuggestion = function(Args){
      if(!Args) return;
@@ -3119,11 +3119,11 @@ window.LiveRC_Suggest_ReplaceUserSuggestions = function(){
     }
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ==== Boîtes pop-up ====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.LiveRC_CreateNewAlert = function(){
   var Alert = document.getElementById("LiveRCAlert");
@@ -3150,11 +3150,11 @@ window.LiveRC_CreateNewAlert = function(){
   return NewLi;
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ===== prompt =====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.LiveRC_prompt = function(text, onOK, onCancel, suggestion){
   if(!text) return;
@@ -3204,11 +3204,11 @@ window.LiveRC_prompt = function(text, onOK, onCancel, suggestion){
   return NewLi;
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ===== confirm =====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.LiveRC_confirm = function(text, onOK, onCancel){
   if(!text) return;
@@ -3248,11 +3248,11 @@ window.LiveRC_confirm = function(text, onOK, onCancel){
   return NewLi;
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ===== alert =====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.LiveRC_alert = function(text){
   if(!text) return;
@@ -3309,13 +3309,13 @@ window.LiveRC_alert_stopOpacity = function(id){
   LiveRC_Config["Timeout"][id] = clearTimeout(LiveRC_Config["Timeout"][id]);
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ==== Module de gestion des variables ====
 
 ===== Récupération des styles locaux =====
 
-<source lang=javascript> */
+<syntaxhighlight lang="javascript"> */
 
 window.liveOldLocalCSS = function(){
     lrcDisplayDebug("Get LiveRC local styles");
@@ -3336,11 +3336,11 @@ window.liveOldLocalCSSOldid = function(RequeteOldid){
   }
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ===== Récupération des styles personnalisés =====
 
-<source lang=javascript> */
+<syntaxhighlight lang="javascript"> */
 
 window.liveOldPersonalCSS = function(){
     lrcDisplayDebug("Get LiveRC personal styles");
@@ -3362,11 +3362,11 @@ window.LiveRC_ManageParams_GetOldCSSOldid = function(RequeteOldid){
   }
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ===== Parsing des styles  =====
 
-<source lang=javascript> */
+<syntaxhighlight lang="javascript"> */
 
 window.LiveRC_ManageParams_GetOldCSS = function(Req, data){
      var localpage = (data.page === LiveRC_Config["CSSPage"]);
@@ -3419,13 +3419,13 @@ window.LiveRC_ManageParams_StripStyle = function(style){
   return style.replace(/^ /g, "").replace(/ $/g, "").replace(/( )*;( )*/g, ";").replace(/( )*:( )*/g, ":").replace(/;;/g, ";");
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ===== Fonctions d'ajout de variables =====
 
 ====== Variables par défaut ======
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.defineParam = function(textcode, Param){
   lrcParams[textcode] = Param;
@@ -3517,11 +3517,11 @@ window.addTradToCSSstyles = function(stylename, lang, text){
   }
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ====== Variables personnalisées ======
 
-<source lang=javascript> */
+<syntaxhighlight lang="javascript"> */
 
 window.addCustomParam = function(textcode, Param){
   Custom_lrcParams[textcode] = Param;
@@ -3612,13 +3612,13 @@ window.lrcSetConfigSetting = function(variable, textcode, value){
   }
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ===== Création du menu de paramétrage =====
 
 ====== Remplissage de la variable globale ======
 
-<source lang=javascript> */
+<syntaxhighlight lang="javascript"> */
 
 // Création des variables
 
@@ -3721,11 +3721,11 @@ window.LiveRC_ManageParams_Fill_GetVarTypes = function(ParamObject){
     return '{'+Types.join(",")+'}';
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ====== Ouverture/Fermeture du menu de paramétrage ======
 
-<source lang=javascript> */
+<syntaxhighlight lang="javascript"> */
 
 // Fermeture du menu
 
@@ -4171,11 +4171,11 @@ window.LiveRC_ManageParams_CreateNewListMenu = function(menuname, buttons, colum
     return NewListUl;
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ====== Modifications spéciales du menu de paramétrage ======
 
-<source lang=javascript> */
+<syntaxhighlight lang="javascript"> */
 
 // Déplacer les options « Afficher le journal XXX » (listes de suivi spéciales)
 
@@ -4355,11 +4355,11 @@ window.LiveRC_ManageParams_TransformThisInputToSelect = function(Input, Suggesti
   Input.parentNode.insertBefore(Select, Input);
   Input.parentNode.removeChild(Input);
 };
-/* </source>
+/* </syntaxhighlight>
 
 ====== Modifications spéciales de l'onglet des icônes ======
 
-<source lang=javascript> */
+<syntaxhighlight lang="javascript"> */
 
 // Ajoute une description dans l'onglet des icones ainsi qu'un aperçu
 
@@ -4551,11 +4551,11 @@ window.LiveRC_ManageParams_AddNewText_AddNewIconLi = function(ID){
   }
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ====== Modifications spéciales des onglets de textes ======
 
-<source lang=javascript> */
+<syntaxhighlight lang="javascript"> */
 
 //  Ajoute des boutons pour switcher entre les traductions dans les variables textuelles + descriptions
 
@@ -4809,11 +4809,11 @@ window.LiveRC_ManageParams_UpdateTranslationToggleStates_GetLangStates = functio
   return ToggleStates;
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ====== Onglet de gestion des contacts ======
 
-<source lang=javascript> */
+<syntaxhighlight lang="javascript"> */
 
 // Création du menu des contacts
 
@@ -4939,11 +4939,11 @@ window.LiveRC_ManageParams_CheckContactListMenu = function(){
         }
     }
 };
-/* </source>
+/* </syntaxhighlight>
 
 ====== Onglet de gestion des utilisateurs masqués ======
 
-<source lang=javascript> */
+<syntaxhighlight lang="javascript"> */
 
 // Création du menu des utilisateurs masqués
 
@@ -5070,11 +5070,11 @@ window.LiveRC_ManageParams_CheckHiddenListMenu = function(){
     }
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ====== Onglet de gestion des pages masquées ======
 
-<source lang=javascript> */
+<syntaxhighlight lang="javascript"> */
 
 // Création du menu des pages masquées
 
@@ -5195,11 +5195,11 @@ window.LiveRC_ManageParams_CheckHiddenPageListMenu = function(){
     }
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ====== Onglet de gestion des extensions ======
 
-<source lang=javascript> */
+<syntaxhighlight lang="javascript"> */
 
 // Création du menu des extensions
 
@@ -5232,11 +5232,11 @@ window.LiveRC_ManageParams_AddExtensionsMenu = function(){
     }
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ====== Onglet de gestion des styles personnels ======
 
-<source lang=javascript> */
+<syntaxhighlight lang="javascript"> */
 
 // Création du menu des styles
 
@@ -5514,11 +5514,11 @@ window.LiveRC_ManageParams_SaveCSSParamsDone = function(Req, data){
     if(data.input) data.input.disabled = false;
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ===== Vérification du menu / sauvegarde =====
 
-<source lang=javascript> */
+<syntaxhighlight lang="javascript"> */
 
 window.LiveRC_ManageParams_CheckMenu = function(Input){
     var Menu = document.getElementById("LiveRC_ParamMenu");
@@ -5849,13 +5849,13 @@ window.LiveRC_ManageParams_SaveParamsRefresh = function(){
     if(P) P.parentNode.removeChild(P);
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ==== Création/manipulation des variables personnalisables ====
 
 ===== Manipulation des paramètres =====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.lrcMakeParam = function(ParamID){
   var Param = lrcParams_Custom[ParamID];
@@ -5878,11 +5878,11 @@ window.lrcMakeParamMenuTabs = function(item){
   return lstParamMenuTabs[item];
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ===== Création/manipulation des textes =====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 // Création des textes
 
@@ -5915,11 +5915,11 @@ window.lrcMakeParamDescription = function(TextID){
   return ("<"+TextID+">").htmlize();
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ===== Création des icônes =====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 window.lrcMakeIcon = function(ID, Arg){
   if(!Arg) Arg = {};
   if(typeof(lrcIcon[ID])==="string") return lrcIcon[ID];
@@ -5950,13 +5950,13 @@ window.lrcMakeIcon = function(ID, Arg){
   return HTML;
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ===== Fonctions pour les extensions =====
 
 ====== Suppression d'une extension ======
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.LiveRC_DeleteExtension = function(extensionName){
   var index = -1;
@@ -5966,11 +5966,11 @@ window.LiveRC_DeleteExtension = function(extensionName){
   if(index>-1) lrcExtensions.splice(index, 1);
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ====== Ajout d'une extension ======
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.LiveRC_AddNewExtension = function(extensionValues){
   if(typeof(extensionValues)!="object") return;
@@ -5988,11 +5988,11 @@ window.LiveRC_AddNewExtension = function(extensionValues){
   }
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ====== Masquage d'une extension ======
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.LiveRC_GetExtensionsToHide = function(){
   var ExtToHide = [];
@@ -6015,11 +6015,11 @@ window.LiveRC_GetExtensionsToHide = function(){
   return ExtToHide;
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ==== Création de liens ====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.lrcGetDiffLink = function(rc){
   var title = rc.title;
@@ -6786,11 +6786,11 @@ window.lrcCreateToggleLinkText = function(previous){
    return Link;
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ==== Manipulation d'objets <code>String</code> ====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 
 window.lrcEscapeStr = function(str) {
@@ -6863,11 +6863,11 @@ window.LiveRC_StripWikitext = function(text){
      return text;
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ==== Manipulation de classes ====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.lrcHasClass = function(node, className){
     var haystack = node.className;
@@ -6905,11 +6905,11 @@ window.lrcGetElementsByClass = function(searchClass,node,tag) {
   return $(node).find(tag+'.'+searchClass).toArray();
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ==== Divers ====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.isRegExp = function(obj){
     return !!(obj && obj.test && obj.exec && (obj.ignoreCase || obj.ignoreCase === false));
@@ -7240,7 +7240,7 @@ window.LiveRC_isView = function(){
   return (mw.config.get('wgAction') === 'view') && !isDiff;
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 === Fonctions d'initialisation ===
 
@@ -7248,7 +7248,7 @@ window.LiveRC_isView = function(){
 
 ===== Initialisation =====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.LiveRC_ForceProcess = function(Process, othercondition){
   return (othercondition || LiveRC_Config["LaunchProcessForce"][Process] === true);
@@ -7396,11 +7396,11 @@ window.LiveRC_DeleteLaunchingBar = function(){
   if(LaunchingBar) LaunchingBar.parentNode.removeChild(LaunchingBar);
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ==== Activation ====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.PleaseWait = function(){
   LiveRC_alert('<center><code><b>LiveRC is loading. Please wait a few seconds.</b></code></center>');
@@ -7584,11 +7584,11 @@ window.LiveRC_PreloadIcons = function(){
   LiveRC_LaunchProcessNextStep();
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ===== Gestion des langues =====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.LiveRC_getMediawikiDefaultLanguage = function(){
   var Support = "not supported (yet)";
@@ -7669,11 +7669,11 @@ window.LiveRC_InitTextTranslations = function(){
   LiveRC_LaunchProcessNextStep();
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ==== Récupération des informations sur l'utilisateur ====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.liveUserInfos = function(){
     lrcDisplayDebug("Get user « "+mw.config.get('wgUserName')+" » infos");
@@ -7743,11 +7743,11 @@ window.lrcUserCan = function(Function){
   return lrcUserHasRight(right);
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ==== Récupération des infos sur la configuration du site ====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.LiveRC_addNeededMessages = function(messagename){
   if(LiveRC_Config["NeededMessages"].indexOf(messagename)==-1) LiveRC_Config["NeededMessages"].push(messagename);
@@ -8359,11 +8359,11 @@ window.LiveRC_getManualTags = function(OldTags){
   return tags;
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ==== Récupération de la liste des administrateurs et des bots ====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.liveUsersInGroups = function(){
   var promises = [];
@@ -8438,11 +8438,11 @@ window.lrcGetGroupClass = function(tr1, state){
 };
 
 
-/* </source>
+/* </syntaxhighlight>
 
 ==== Récupération de la liste de suivi ====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.liveWatch = function() {
   lrcDisplayDebug("Get watchlist");
@@ -8540,11 +8540,11 @@ window.getWatch = function(xmlreq, data){
   LiveRC_LaunchProcessNextStep();
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ==== Récupération des derniers blocages ====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.loadBlocks = function(){
   lrcDisplayDebug("Get blocked users");
@@ -8587,11 +8587,11 @@ window.readBlocks = function(xmlreq, data) {
   }
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ==== Récupération des catégories d'utilisateurs ====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.loadUsersInCats = function(){
   LiveRC_Config["watchCategoriesLoaded"] = [];
@@ -8661,11 +8661,11 @@ window.fillUserCat = function(xmlreq,data) {
   }
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ==== Création de l'interface ====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 // Add CSS classes for customization
 
@@ -9018,11 +9018,11 @@ window.lrcCreateMissingParams = function(){
   LiveRC_LaunchProcessNextStep();
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ===== Boutons haut-gauche =====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 // Mise en place des liens sur les boutons
 
@@ -9111,11 +9111,11 @@ window.lrcCloseAll = function(){
   lrcInitTableHeight();
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ===== Journaux de suivi =====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 // Définition listes de suivi spéciales
 
@@ -9238,11 +9238,11 @@ window.LiveRC_liveFollow_SetMenuHeights = function(){
   LiveRC_Config["Timeout"]["FollowLists"] = setTimeout("LiveRC_liveFollow_SetMenuHeights()", 500);
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ===== Vérification version =====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
   // Check LiveRC version
 
@@ -9328,11 +9328,11 @@ window.LiveRC_CheckLiveRCVersion = function(){
   lrcDisplayDebug("LiveRC version checked");
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ==== Création du menu de contrôle ====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.buildControlBar = function(){
   lrcDisplayDebug("Create control bar");
@@ -9448,11 +9448,11 @@ window.AddButtonToControlBar = function(Button, AddSeparator){
   }
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ===== Boutons de suppression de ligne(s) RC =====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.buildSupprLigneForm = function(){
   var SupprLineParams = Custom_lrcSupprLineParams;
@@ -9514,11 +9514,11 @@ window.supprLigne = function(quelLigne) {
   return false;
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ===== Bouton "mini diff" =====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.LiveRC_MiniDiffPreviewExtension_ModifyToggleInput = function(){
   var Input = document.getElementById("showDiffR");
@@ -9529,11 +9529,11 @@ window.LiveRC_MiniDiffPreviewExtension_ModifyToggleInput = function(){
   LiveRC_MiniDiffPreviewExtension_ToggleDiff(Input);
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ===== Bouton "Suivant" =====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.goNext = function(mode) {
   //Argos
@@ -9569,11 +9569,11 @@ window.goNext = function(mode) {
   }
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ===== Menus surgissants =====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.LiveRC_SetCheckListPosition = function(CL_ID){
   var CheckList = document.getElementById(CL_ID);
@@ -9694,11 +9694,11 @@ window.createChecklistMenu = function(ID, Lines){
   return CheckList;
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ====== RC ======
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.addRCtypesCheckInMenu = function(){
   var Lines = [];
@@ -9734,11 +9734,11 @@ window.addRCtypesCheckInMenu = function(){
   createChecklistMenu("showRC", Lines);
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ====== Logs ======
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.addLogtypesCheckInMenu = function(){
   var Lines = [];
@@ -9783,11 +9783,11 @@ window.addLogtypesCheckInMenu = function(){
   createChecklistMenu("showLog", Lines);
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ====== Balises ======
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.addTagsCheckInMenu = function(){
   var Lines = [];
@@ -9811,11 +9811,11 @@ window.addTagsCheckInMenu = function(){
   createChecklistMenu("showTags", Lines);
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ====== Espaces de noms ======
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.addNStypesCheckInMenu = function(){
   var Lines = [];
@@ -9836,11 +9836,11 @@ window.addNStypesCheckInMenu = function(){
   createChecklistMenu("showNS", Lines);
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ====== Utilisateurs ======
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.addUsertypesCheckInMenu = function(){
   var Lines = [];
@@ -9893,11 +9893,11 @@ window.addUsertypesCheckInMenu = function(){
   createChecklistMenu("showUser", Lines);
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ===== Gestion de la position de la barre de commande =====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.lrcSetControlBarPosition = function(MouseOver, event){
   if(!event) { event = window.event; }
@@ -9941,11 +9941,11 @@ window.lrcFindOffsetPos = function(el) {
 	return {'X':x, 'Y':y};
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ==== Finalisation du lancement de LiveRC ====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.liveRCReady = function(){
   lrcRemoveClass(document.body,'LiveRCLoading');
@@ -9960,13 +9960,13 @@ window.liveRCReady = function(){
   LiveRC_LaunchProcessNextStep();
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 === Fonctions de mise à jour des modifications récentes ===
 
 ==== Lancement de la requête de mise à jour ====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.liveRC = function() {
   RAZnotificationtimestamps();
@@ -10010,11 +10010,11 @@ window.liveRC = function() {
   wpajax.http({url:URL, onSuccess:getRC});
 };
 
-/*</source>
+/*</syntaxhighlight>
 
 ==== Récupération de la requête de mise à jour ====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.getRC = function(xmlreq, data) {
   if (document.getElementById('stopLive').checked){
@@ -10520,11 +10520,11 @@ window.getRC = function(xmlreq, data) {
   LiveRC_Config["Timeout"]["RCRequest"] = setTimeout("liveRC()",lrcMakeParam("Refresh")*1000);
 };
 
-/*</source>
+/*</syntaxhighlight>
 
 ==== Requête des infos de la page (suivi, protection, modèles, catégories et interwikis) ====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.livePageInfos = function(rc){
   lrcDisplayDebug("Get page infos ("+rc.title+")");
@@ -10692,11 +10692,11 @@ window.getPageInfos = function(xmlreq, data){
   }
 };
 
-/*</source>
+/*</syntaxhighlight>
 
 ==== Requête des infos fichier ====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.liveFileInfos = function(rc){
   var title=rc.title;
@@ -10747,11 +10747,11 @@ window.getFileInfos = function(xmlreq, data){
   getRevision(rc);
 };
 
-/*</source>
+/*</syntaxhighlight>
 
 ==== Requête des infos wikidata ====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.liveWikidataInfos = function(rc){
   lrcDisplayDebug("Get wikibase infos ("+rc.wikidataitem+")");
@@ -10809,11 +10809,11 @@ window.getWikidataInfos = function(Req, data){
   getRevision(rc);
 };
 
-/*</source>
+/*</syntaxhighlight>
 
 ==== Gestion des notifications ====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.liveNotificationInfos = function(not){
   wpajax.http({url: lrcGetAPIURL('format=xml&action=query')
@@ -10921,13 +10921,13 @@ window.markReadNotificationDone = function(req, data){
   if(tr1ID && document.getElementById(tr1ID)) supprLigne(tr1ID);
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ==== Affichage d'une ligne RC ====
 
 ===== Création de la ligne =====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 LiveRC_Config["RCpaused"] = [];
 
@@ -11264,11 +11264,11 @@ window.changeLigne = function(quelLigne) {
   if(el) lrcAddClass(el, "RcChecked");
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ===== Cellule "page" =====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.getRevision_th1Content = function(rc, trID){
   var title = rc.title;
@@ -11333,11 +11333,11 @@ window.getRevision_th1Content = function(rc, trID){
   return th1Text;
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ===== Cellule "utilisateur" =====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.getRevision_td2Content = function(rc, trID){
   var state = rc.state;
@@ -11405,11 +11405,11 @@ window.getRevision_td2Content = function(rc, trID){
   return td2Text;
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ===== Cellule "commentaire de modification" =====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.getRevision_td3Content = function(rc){
   var state = rc.state;
@@ -11481,11 +11481,11 @@ window.getRevision_td3Content_LogComment = function(rc){
   return comment;
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ===== Cellule "tailles" =====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.getRevision_td4Content = function(rc){
   var state = rc.state;
@@ -11505,11 +11505,11 @@ window.getRevision_td4Content = function(rc){
   return td4Text;
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ===== Cellule "test commentaire" =====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.getRevision_td5Content = function(rc){
   var state = rc.state;
@@ -11531,11 +11531,11 @@ window.getRevision_td5Content = function(rc){
   return td5Text;
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ===== Classes CSS =====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.getRevisionClasses = function(tr1, rc){
   var state = rc.state;
@@ -11607,11 +11607,11 @@ window.getRevisionClasses = function(tr1, rc){
   }
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ===== Statut d'affichage =====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.setRCRevisionShowStatus = function(rc){
   var user = rc.user;
@@ -11766,11 +11766,11 @@ window.setRCRevisionShowStatus = function(rc){
   return MustBeShown;
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ===== Affichage MiniDiff =====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.LiveRC_MiniDiffPreviewExtension_Init = function(Args){
   var id = Args.id;
@@ -11874,11 +11874,11 @@ window.LiveRC_MiniDiffPreviewExtension_ToggleDiff = function(Checkbox){
   }
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ==== Fonctions de mise à jour des journaux ====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.updateFollowLists = function(rc, tr1){
   var title = rc.title;
@@ -12095,11 +12095,11 @@ window.lrcSubFollowDelete = function(ListName, SubListName, updatefunc){
   if(typeof(updatefunc)==="function") updatefunc();
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ===== Modifications balisées =====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.updateFollowTags = function(){
   lrcDisplayDebug("Update list (Tagged edits)");
@@ -12185,11 +12185,11 @@ window.lrcGetAllTags = function(tagname){
   return SubListSpan;
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ===== Déclenchements du filtre anti-pourriels =====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.updateFollowSpam = function(){
   lrcDisplayDebug("Update list (Spam)");
@@ -12288,11 +12288,11 @@ window.lrcGetAllSpam = function(user){
     return SubListSpan;
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ===== Déclenchements du filtre anti-abus =====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.updateFollowAbuseLog = function(){
   lrcDisplayDebug("Update list (Abuselog)");
@@ -12397,11 +12397,11 @@ window.lrcGetAllAbuseLog = function(user){
     return SubListSpan;
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ===== Pending changes =====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.updateFollowPendingChanges = function(){
   if(!lrcMakeParam("GetPageInfos")) return;
@@ -12470,11 +12470,11 @@ window.updateFollowPendingChanges = function(){
   livePending.appendChild(List);
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ===== Nouvelles pages =====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.updateFollowNewPages = function(){
     lrcDisplayDebug("Update list (NewPages)");
@@ -12567,11 +12567,11 @@ window.lrcGetAllNewPages = function(page){
     return SubListSpan;
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ===== Pages suivies =====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.updateFollowWatchlist = function(){
     lrcDisplayDebug("Update list (Watchlist)");
@@ -12683,11 +12683,11 @@ window.lrcGetAllSuivi = function(page){
     return SubListSpan;
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ===== Pages masquées =====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.updateFollowHiddenPages = function(){
     lrcDisplayDebug("Update list (Hidden pages)");
@@ -12799,11 +12799,11 @@ window.lrcGetAllHiddenPages = function(page){
     return SubListSpan;
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ===== Utilisateurs révoqués =====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.updateFollowRevoc = function() {
   lrcDisplayDebug("Update list (Reverted Users)");
@@ -12896,11 +12896,11 @@ window.lrcGetAllRevoc = function(user, showcount){
     return SubListSpan;
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ===== Nouveaux utilisateurs =====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.updateFollowNewUsers = function(){
   lrcDisplayDebug("Update list (NewUsers)");
@@ -12994,11 +12994,11 @@ window.lrcGetAllNewUsers = function(user){
     return SubListSpan;
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ===== Utilisateurs suivis =====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.updateFollowContact = function() {
   lrcDisplayDebug("Update list (Watched Users)");
@@ -13091,11 +13091,11 @@ window.lrcGetAllContact = function(user){
     return SubListSpan;
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ===== Utilisateurs masqués =====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.updateFollowHiddenUsers = function() {
   lrcDisplayDebug("Update list (Hidden users)");
@@ -13188,13 +13188,13 @@ window.lrcGetAllHidden = function(user){
     return SubListSpan;
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 === Fonctions de prévisualisation ===
 
 ==== Outils de la fenêtre de prévisualisation ====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 // Mise à jour de la hauteur et du déroulé de la fenêtre de prévisualisation
 
@@ -13221,11 +13221,11 @@ window.LiveRC_DisableOnmouseMoveOnSelects = function(TabContainer){
   }
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ===== Fenêtre de l'historique de prévisualisation =====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 // Création de l'historique de prévisualisation
 
@@ -13337,11 +13337,11 @@ window.buildHistoryPanel = function(){
   if(historyPanel) historyPanel.innerHTML = PreviousLink + ShowHistoryLink + NextLink ;
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ===== Fenêtre de recherche externe =====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 // Ouverture
 
@@ -13402,11 +13402,11 @@ window.closeGoogleSearch = function(){
   lrcInitTableHeight();
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ===== Fonctions standards =====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 // Création barre de commandes standard
 
@@ -13945,13 +13945,13 @@ window.getFormParams = function(Form, searchedname){
      return Params;
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ===== Fonctions automatiques =====
 
 ====== Blanchiment ======
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 // Création de la commande de blanchiment
 
@@ -14114,11 +14114,11 @@ window.postBlankPageDone = function(Req, data){
   LiveRC_alert(text);
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ====== Bandeaux ======
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 // Création de la commande d'ajout de bandeau
 
@@ -14248,11 +14248,11 @@ window.postTagPageDone = function(Req, data){
   LiveRC_alert(text);
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ====== Révocation ======
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 // Création de la commande de révocation
 
@@ -14462,11 +14462,11 @@ window.lrcUndoCBDone = function(Req, data){
   LiveRC_alert(text);
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ====== Remerciement ======
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 // Création de la commande de remerciement utilisateur
 
@@ -14531,11 +14531,11 @@ window.postLiveThankDone = function(Req, data){
   LiveRC_alert(text);
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ====== Avertissement / Message ======
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 // Création de la commande de message utilisateur
 
@@ -14662,11 +14662,11 @@ window.postLiveAvertoDone = function(Req, data){
   LiveRC_alert(text);
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ====== Signalement / demande administrative ======
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.lrcMakeReportArray = function(){
   var ReportArray = Custom_lstReport;
@@ -14916,11 +14916,11 @@ window.postReportDone = function(Req, data){
   LiveRC_alert(text);
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ====== Relecture (review) ======
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 // Modification de la forme pour relire un diff
 
@@ -15032,11 +15032,11 @@ window.processReviewRollback = function(Input, PreviewBarArgs){
     });
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ====== Relecture (patrol) ======
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 // Modification et copie du lien "Marquer cette modification comme relue"
 
@@ -15092,11 +15092,11 @@ window.lrcAfterPatrolEdit = function(xmlreq, data) {
   }catch(e){ }
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ==== LiveDiff ====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 // Requête et affichage Diff
 
@@ -15195,11 +15195,11 @@ window.getDiff = function(xmlreq, data) {
   LiveRC_RunHooks("AfterPreviewDiff", data);
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ==== LiveHist ====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.liveHist = function(page, Params) {
   LiveRC_Config["NextPreviewIndex"]++;
@@ -15350,11 +15350,11 @@ window.processHistChangetag = function(Input){
   liveChangetag(page, "revision", Ids);
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ==== LiveArticle ====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.liveArticle = function(page, user, oldid) {
   LiveRC_Config["NextPreviewIndex"]++;
@@ -15395,11 +15395,11 @@ window.getArticle = function(xmlreq, data) {
   LiveRC_RunHooks("AfterPreviewArticle", data);
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ===== Gestion extension [[mw:Flow|Flow]] =====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.lrcIsFlowPage = function(title){
   if(!lrcIsExtensionInstalled("Flow")) return false;
@@ -15459,11 +15459,11 @@ window.lrcManageFlowPage_TopicFeatures = function(TopicDiv, title){
 
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ==== LiveContrib ====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.liveContrib = function(user, Params) {
   LiveRC_Config["NextPreviewIndex"]++;
@@ -15540,11 +15540,11 @@ window.processContrib = function(Input){
   liveContrib(user, Params);
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ==== LiveDeletedContrib ====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.liveDeletedContrib = function(user, Params) {
   LiveRC_Config["NextPreviewIndex"]++;
@@ -15621,11 +15621,11 @@ window.processDeletedContrib = function(Input){
   liveDeletedContrib(user, Params);
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ==== LiveLog ====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 // (:it:User:Jalo)
 
 window.liveLog = function(action , params) {
@@ -15752,10 +15752,10 @@ window.processLog = function(Input){
   liveLog(action, {page:page,user:user});
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ==== LiveFilter ====
-<source lang=javascript> */
+<syntaxhighlight lang="javascript"> */
 
 window.liveFilter = function(Page, params) {
 // -- AbuseLog --
@@ -15917,11 +15917,11 @@ window.processFilter = function(Input){
   liveFilter("AbuseLog", Params);
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ==== LiveDelete ====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.liveDelete = function(Title){
   LiveRC_Config["NextPreviewIndex"]++;
@@ -16002,11 +16002,11 @@ window.doneDelete = function(ajaxDelete, data){
     }
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ==== LiveProtect ====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.liveProtect = function(Title){
   LiveRC_Config["NextPreviewIndex"]++;
@@ -16149,11 +16149,11 @@ window.doneProtect = function(ajaxProtect, data){
     LiveRC_RunHooks("AfterPreviewProtect", data.params);
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ==== LiveBlock ====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.liveBlock = function(UserName){
   LiveRC_Config["NextPreviewIndex"]++;
@@ -16269,11 +16269,11 @@ window.doBlockAverto = function(user){
   });
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ==== LiveEdit ====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.liveEdit = function(Title, Param, preload){
   LiveRC_Config["NextPreviewIndex"]++;
@@ -16373,11 +16373,11 @@ window.doneEdit = function(ajaxEdit, data){
     }
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ==== LiveMove ====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.liveMove = function(Title){
   LiveRC_Config["NextPreviewIndex"]++;
@@ -16472,11 +16472,11 @@ window.doneMove = function(ajaxMove, Type){
     }
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ==== LiveRevisiondelete ====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.liveRevisiondelete = function(Page, type, RDId){
   LiveRC_Config["NextPreviewIndex"]++;
@@ -16573,11 +16573,11 @@ window.doneRevisiondelete = function(xmlreq, data){
     getRevisiondelete_ModifyInputs();
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ==== LiveWhatlinkshere ====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.liveWhatlinkshere = function(page , params) {
   LiveRC_Config["NextPreviewIndex"]++;
@@ -16674,11 +16674,11 @@ window.processWhatlinkshere = function(Input){
   liveWhatlinkshere(page, Params);
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ==== LiveStabilization ====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.liveStabilization = function(Title){
   LiveRC_Config["NextPreviewIndex"]++;
@@ -16768,11 +16768,11 @@ window.doneStabilization = function(Req, data){
   updatePreviewWindowAttributes();
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ==== LiveChangetag ====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.liveChangetag = function(title, type, paramIds){
   LiveRC_Config["NextPreviewIndex"]++;
@@ -16882,11 +16882,11 @@ window.doneChangetag = function(xmlreq, data){
   getChangetag_ModifyInputs();
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 ==== LiveInterwiki ====
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.liveInterwiki = function(Code, Title, Params){
   if(!lrcMakeParam("InterwikiPreviewEnabled")) return true;
@@ -16922,11 +16922,11 @@ window.liveInterwiki = function(Code, Title, Params){
   LiveRC_RunHooks("AfterPreviewInterwiki", {code:Code, title:Title});
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 === Fenêtre de tchat ===
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 // Création
 
@@ -17006,11 +17006,11 @@ window. deleteTchatWindow = function(){
   if(OldTchat) OldTchat.parentNode.removeChild(OldTchat);
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 === Fenêtre de débogage ===
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.LiveRC_CreateDebug = function(){
   var TargetDiv = document.getElementById("LiveRCContainer");
@@ -17158,11 +17158,11 @@ window.lrcToggleLogo = function(state){
   }
 };
 
-/* </source>
+/* </syntaxhighlight>
 
 === Lancement ===
 
-<source lang="javascript"> */
+<syntaxhighlight lang="javascript"> */
 
 window.LiveRC_LoadUsing = function(using, func){
   $.when.apply( $, $.map(using, function ( url ) {
@@ -17231,4 +17231,4 @@ mw.loader.using('mediawiki.api', function(){
   });
 });
 
-/* </source> */
+/* </syntaxhighlight> */
