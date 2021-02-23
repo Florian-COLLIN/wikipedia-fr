@@ -1,0 +1,604 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sma",
+				"smaller\tfont-size"
+			],
+			[
+				"h",
+				"header\tTag"
+			],
+			[
+				"con",
+				"contenu_onglet_categories"
+			],
+			[
+				"onglet",
+				"onglet_categories"
+			],
+			[
+				"ong",
+				"onglet_0"
+			],
+			[
+				"on",
+				"onglet_0"
+			],
+			[
+				"a",
+				"anc_onglet"
+			],
+			[
+				"abo",
+				"about-the-future-of-tv-series"
+			],
+			[
+				"re",
+				"release"
+			],
+			[
+				"colonnes",
+				"colonnes-2"
+			],
+			[
+				"colo",
+				"colonnes-1"
+			],
+			[
+				"co",
+				"colonnes-1"
+			],
+			[
+				"je",
+				"je-te-promets"
+			],
+			[
+				"ex",
+				"expandable-1"
+			],
+			[
+				"expan",
+				"expand-btn-5"
+			],
+			[
+				"i",
+				"isexpanded-5"
+			],
+			[
+				"html",
+				"html\thtml"
+			],
+			[
+				"tv",
+				"tv-series"
+			],
+			[
+				"javasc",
+				"javascript"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"la",
+				"langue1"
+			],
+			[
+				"langue",
+				"langue1"
+			],
+			[
+				"langu",
+				"language"
+			],
+			[
+				"nav",
+				"navigator"
+			],
+			[
+				"rapp",
+				"rapport-wikipedia-fr"
+			],
+			[
+				"hr",
+				"href\tAttr"
+			],
+			[
+				"de",
+				"destinataire"
+			],
+			[
+				"_",
+				"_POST"
+			],
+			[
+				"p",
+				"php"
+			],
+			[
+				"text-a",
+				"text-align\tproperty"
+			],
+			[
+				"g",
+				"getElementById"
+			],
+			[
+				"ge",
+				"getFullYear"
+			],
+			[
+				"border-bo",
+				"border-bottom-color\tproperty"
+			],
+			[
+				"ne",
+				"news"
+			],
+			[
+				"l",
+				"li\tTag"
+			],
+			[
+				"back",
+				"background-attachment\tproperty"
+			],
+			[
+				"s",
+				"series"
+			],
+			[
+				"in",
+				"info"
+			],
+			[
+				"Ici",
+				"ici-tout-commence"
+			],
+			[
+				"t",
+				"tv-series"
+			],
+			[
+				"border",
+				"border\tproperty"
+			],
+			[
+				"backrg",
+				"background-image\tproperty"
+			],
+			[
+				"hre",
+				"hreflang\tAttr"
+			],
+			[
+				"he",
+				"hreflang\tAttr"
+			],
+			[
+				"ra",
+				"rapport-wikipedia-fr"
+			],
+			[
+				"justify",
+				"justify\ttext-align"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"e",
+				"encyclopédie"
+			],
+			[
+				"backgroun",
+				"background-image\tproperty"
+			],
+			[
+				"date",
+				"date_première_version"
+			],
+			[
+				"da",
+				"date_dernière_version"
+			],
+			[
+				"input",
+				"input-name"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"Dis",
+				"Distribution_4"
+			],
+			[
+				"Syn",
+				"Synopsis_4"
+			],
+			[
+				"Ma",
+				"Magic_In_The_Air"
+			],
+			[
+				"Sy",
+				"Synopsis_3"
+			],
+			[
+				"Di",
+				"Distribution_3"
+			],
+			[
+				"Distr",
+				"Distribution_2"
+			],
+			[
+				"D",
+				"Distribution_1"
+			],
+			[
+				"An",
+				"An_American_City"
+			],
+			[
+				"Nouvele",
+				"Nouvelles_séries"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			],
+			[
+				"paddin",
+				"padding-left\tproperty"
+			],
+			[
+				"The",
+				"The_French_Studios_Company_2"
+			],
+			[
+				"commu",
+				"communique-14-11-2020"
+			],
+			[
+				"list-",
+				"list-style-type\tproperty"
+			],
+			[
+				"alert",
+				"alerte"
+			],
+			[
+				"c",
+				"collin"
+			],
+			[
+				"b",
+				"border-color\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: hello"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Vie",
+				"View Package File"
+			],
+			[
+				"",
+				"Snippet: html"
+			],
+			[
+				"View Package File",
+				"View Package File"
+			],
+			[
+				"JavaScript",
+				"Set Syntax: JavaScript"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Florian/Documents/GitHub/wikipedia-fr/gadgets/filmo/test.js",
+		"/C/Users/Florian/Documents/GitHub/tv-series/style.css",
+		"/C/Users/Florian/Documents/GitHub/tv-series/series/doc.html",
+		"/C/Users/Florian/Documents/GitHub/tv-series/news/category/disney+.html",
+		"/C/Users/Florian/Documents/GitHub/tv-series/planning/2021/02.html",
+		"/C/Users/Florian/Documents/GitHub/tv-series/planning/2021/index.html",
+		"/C/Users/Florian/Documents/GitHub/tv-series/planning/index.html",
+		"/C/Users/Florian/Documents/GitHub/tv-series/series/demain-nous-appartient.html",
+		"/C/Users/Florian/Documents/GitHub/tv-series/planning/2021/01.html",
+		"/C/Users/Florian/Documents/GitHub/tv-series/news/index.html",
+		"/C/Users/Florian/Documents/GitHub/tv-series/news/category/netflix.html",
+		"/C/Users/Florian/Documents/GitHub/tv-series/news/2021/02/star-sur-disney+.html",
+		"/C/Users/Florian/Documents/GitHub/tv-series/news/2021/02/saison-2-de-la-promesse.html",
+		"/C/Users/Florian/Documents/GitHub/tv-series/news/2021/01/top-series-2020.html",
+		"/C/Users/Florian/Documents/GitHub/tv-series/news/2021/01/sam-renouvele-pour-une-saison-6.html",
+		"/C/Users/Florian/Documents/GitHub/tv-series/news/2021/01/nouvelle-serie-sur-tf1.html",
+		"/C/Users/Florian/Documents/GitHub/tv-series/series/ici-tout-commence.html",
+		"/C/Users/Florian/Documents/GitHub/tv-series/series/index.html",
+		"/C/Users/Florian/Documents/GitHub/tv-series/series/je-te-promets.html",
+		"/C/Users/Florian/Documents/GitHub/tv-series/series/la-promesse.html",
+		"/C/Users/Florian/Documents/GitHub/tv-series/404.html",
+		"/C/Users/Florian/Documents/GitHub/tv-series/series/sam.html",
+		"/C/Users/Florian/Documents/GitHub/tv-series/news/2021/01/ici-tout-commence-deprogramme.html",
+		"/C/Users/Florian/Documents/GitHub/tv-series/javascript.js",
+		"/C/Users/Florian/Documents/GitHub/tv-series/index.html",
+		"/C/Users/Florian/Documents/GitHub/tv-series/api.html",
+		"/C/Users/Florian/AppData/Roaming/Sublime Text 3/Packages/HTML/HTML.sublime-syntax",
+		"/C/Users/Florian/Downloads/MassMessage.json",
+		"/C/Users/Florian/Documents/GitHub/tv-series/README.md",
+		"/C/Users/Florian/Documents/GitHub/tv-series/codes/api/series/demain-nous-appartient.json",
+		"/C/Users/Florian/Documents/GitHub/tv-series/codes/api/series/sam.json",
+		"/C/Users/Florian/Documents/GitHub/tv-series/codes/api/series/je-te-promets.json",
+		"/C/Users/Florian/Documents/GitHub/tv-series/codes/api/series/doc.json",
+		"/C/Users/Florian/Documents/GitHub/Cyclinfo/Cyclinfo 0.1/Cyclinfo/main.cpp",
+		"/C/Users/Florian/Documents/GitHub/Cyclinfo/Cyclinfo 0.1/Cyclinfo/Cyclinfo_it.ts",
+		"/C/Users/Florian/Documents/GitHub/Cyclinfo/Cyclinfo 0.1/Cyclinfo/mainwindow.cpp",
+		"/C/Users/Florian/Documents/GitHub/Cyclinfo/CONTRIBUTING.md",
+		"/C/Users/Florian/Documents/GitHub/Cyclinfo/Cyclinfo 0.1/Cyclinfo/mainwindow.h",
+		"/C/Users/Florian/Documents/GitHub/Cyclinfo/README.md",
+		"/C/Users/Florian/Documents/GitHub/Cyclinfo/AUTHORS.md",
+		"/C/Users/Florian/Documents/GitHub/florian-collin.github.com/fr/mise-à-jour.html",
+		"/C/Users/Florian/Documents/GitHub/florian-collin.github.com/fr/projects.html",
+		"/C/Users/Florian/Documents/GitHub/florian-collin.github.com/fr/release/2021/01/about-the-future-of-tv-series.html",
+		"/C/Users/Florian/Documents/GitHub/florian-collin.github.com/style.css",
+		"/C/Users/Florian/Documents/GitHub/florian-collin.github.com/fr/projects/awb.html",
+		"/C/Users/Florian/Documents/GitHub/florian-collin.github.com/en/index.html",
+		"/C/Users/Florian/Documents/GitHub/florian-collin.github.com/fr/index.html",
+		"/C/Users/Florian/AppData/Local/Temp/Temp1_InChargeCompositing.zip/InChargeCompositing/i18n/qqq.json",
+		"/C/Users/Florian/AppData/Local/Temp/Temp1_InChargeCompositing.zip/InChargeCompositing/resources/skin.js",
+		"/C/Users/Florian/Documents/GitHub/tv-series/news/2021/01/nouvelle-série-sur-tf1.html",
+		"/C/Users/Florian/Documents/GitHub/tv-series/codes/use-api.js",
+		"/C/Users/Florian/Documents/GitHub/tv-series/codes/ajax.js",
+		"/C/Users/Florian/AppData/Roaming/Sublime Text 3/Packages/Default/Add Line Before.sublime-macro",
+		"/C/Users/Florian/AppData/Roaming/Sublime Text 3/Packages/User/hello.sublime-snippet",
+		"/C/Users/Florian/AppData/Roaming/Sublime Text 3/Packages/User/DOCTYPE.sublime-snippet.xml",
+		"/C/Users/Florian/Documents/GitHub/tv-series/contact.html",
+		"/C/Users/Florian/Documents/javascript.html/javascript.js",
+		"/C/Users/Florian/Documents/GitHub/tv-series/404.md",
+		"/C/Users/Florian/Documents/GitHub/tv-series/news/2021/01/ici-tout-commence-deprogamme.html",
+		"/C/Users/Florian/Documents/GitHub/tv-series/codes/api/series/ici-tout-commence.json",
+		"/C/Users/Florian/Documents/GitHub/tv-series/codes/api/series/la-promesse.json",
+		"/C/Program Files (x86)/Celtx/celtx.exe",
+		"/C/Users/Florian/Documents/GitHub/tv-series/codes/traitement_formulaire.php",
+		"/C/Program Files (x86)/oStorybook/i18n/I18N.jar",
+		"/C/Users/Florian/Documents/GitHub/florian-collin.github.com/CHANGELOG.md",
+		"/C/Users/Florian/Documents/GitHub/florian-collin.github.com/javascript.js",
+		"/C/Users/Florian/Documents/GitHub/wikipedia-fr/gadgets/LiveRC/i18n/de.js",
+		"/C/Users/Florian/Documents/GitHub/wikipedia-fr/gadgets/LiveRC/JavaScript/LiveRC.js",
+		"/C/Users/Florian/Downloads/result (1).json",
+		"/C/Users/Florian/Documents/GitHub/wikipedia-fr/gadgets/LiveRC/i18n/fr.js",
+		"/C/Users/Florian/Documents/GitHub/wikipedia-fr/gadgets/LiveRC/Dev.js/CSS.js",
+		"/C/Users/Florian/Documents/GitHub/wikipedia-fr/gadgets/LiveRC/Dev.js/Dev.js",
+		"/C/Users/Florian/Documents/GitHub/wikipedia-fr/gadgets/LiveRC/CSS.js/CSS.js",
+		"/C/Users/Florian/Documents/GitHub/wikipedia-fr/gadgets/LiveRC/LiveRC.js",
+		"/C/Users/Florian/Documents/New site/bases.html",
+		"/C/Users/Florian/Documents/New site/outils.html",
+		"/C/Users/Florian/Documents/New site/objectifs.html",
+		"/C/Users/Florian/Documents/New site/sommaire.html",
+		"/C/Users/Florian/Documents/New site/api.json",
+		"/C/Users/Florian/Documents/New site/untitled.sublime-build",
+		"/C/Users/Florian/Documents/New site/testcontact.html",
+		"/C/Users/Florian/Documents/New site/essai.json",
+		"/C/Users/Florian/Documents/New site/traductions.php",
+		"/C/Users/Florian/Documents/New site/traductions.xml",
+		"/C/Users/Florian/Documents/New site/translate.php",
+		"/C/Users/Florian/Documents/test-wp.js",
+		"/C/Users/Florian/Documents/test-wp-2.js",
+		"/C/Users/Florian/Documents/todo.json",
+		"/C/Users/Florian/AppData/Local/Microsoft/Windows/INetCache/IE/8M7GW999/index[1].htm",
+		"/C/Users/Florian/Documents/Sites2/Test1/index.php",
+		"/C/Users/Florian/Downloads/12835-852249-un-bon-ptit-forum-en-php.zip",
+		"/C/Users/Florian/Documents/New site/test/config.php",
+		"/C/Users/Florian/Documents/New site/test/lang/fichier_fr.php",
+		"/C/Users/Florian/Documents/New site/test/index.php",
+		"/C/Users/Florian/Documents/AutoWikiBrowser/Sources/AWB/AWB/Ressources/AutoWikiBrowser.csproj",
+		"/C/Users/Florian/Documents/AutoWikiBrowser/Sources/AWB/AWB/Ressources/AboutBox.resx",
+		"/C/Users/Florian/Documents/AutoWikiBrowser/Sources/AWB/AWB/Ressources/AboutBox.cs",
+		"/C/Users/Florian/Documents/AutoWikiBrowser/Sources/AWB/AWB/Ressources/AboutBox.Designer.cs",
+		"/C/Users/Florian/Documents/AutoWikiBrowser/Sources/AWB/AWB/Ressources/AWBWebBrowser.cs",
+		"/C/Users/Florian/Documents/AutoWikiBrowser/Sources/AWB/AWB/Ressources/Bot Image.png license.txt",
+		"/C/Users/Florian/Documents/AutoWikiBrowser/Sources/AWB/AWB/Properties/Settings.settings",
+		"/C/Users/Florian/Documents/AutoWikiBrowser/Sources/AWB/AWB/Properties/Settings.Designer.cs",
+		"/C/Users/Florian/Documents/AutoWikiBrowser/Sources/AWB/AWB/Properties/Resources.resx",
+		"/C/Users/Florian/Documents/AutoWikiBrowser/Sources/AWB/AWB/Properties/Resources.Designer.cs",
+		"/C/Users/Florian/Documents/AutoWikiBrowser/Sources/AWB/AWB/Properties/AssemblyInfo.cs",
+		"/C/Users/Florian/Documents/Text/python.py",
+		"/C/Users/Florian/Documents/AutoWikiBrowser/Sources/AWB/AWB/Logging/MyTrace.cs",
+		"/C/Users/Florian/Documents/AutoWikiBrowser/Sources/AWB/AWB/IAutoWikiBrowser/IAutoWikiBrowserTabs.cs",
+		"/C/Users/Florian/Documents/AutoWikiBrowser/Sources/AWB/AWB/IAutoWikiBrowser/IAutoWikiBrowserInfo.cs",
+		"/C/Users/Florian/Documents/AutoWikiBrowser/Sources/AWB/AWB/IAutoWikiBrowser/IAutoWikiBrowserForm.cs",
+		"/C/Users/Florian/Documents/AutoWikiBrowser/Sources/AWB/AWB/IAutoWikiBrowser/IAutoWikiBrowserCommands.cs",
+		"/C/Users/Florian/Documents/AutoWikiBrowser/Sources/AWB/AWB/IAutoWikiBrowser/IAutoWikiBrowser.cs",
+		"/C/Users/Florian/AppData/Roaming/Sublime Text 3/Packages/User/Jeux/MonPremierCode/main.lua",
+		"/C/Users/Florian/AppData/Roaming/Sublime Text 3/Packages/User/grcda.cda/style.css",
+		"/C/Users/Florian/AppData/Roaming/Sublime Text 3/Packages/User/grcda.cda/javascript.js",
+		"/C/Users/Florian/AppData/Roaming/Sublime Text 3/Packages/User/grcda.cda/index.html",
+		"/C/Users/Florian/AppData/Roaming/Sublime Text 3/Packages/User/grcda.cda/communique/17-11-2020.html",
+		"/C/Users/Florian/AppData/Roaming/Sublime Text 3/Packages/User/grcda.cda/communique/16-11-2020.html",
+		"/C/Users/Florian/AppData/Roaming/Sublime Text 3/Packages/User/grcda.cda/communique.html",
+		"/C/Users/Florian/Documents/PremierJeu/main.lua",
+		"/C/Users/Florian/AppData/Roaming/Sublime Text 3/Packages/User/Jeux/Jeu.lua",
+		"/C/Users/Florian/AppData/Roaming/Sublime Text 3/Packages/User/communique/17-11-2020.html",
+		"/C/Users/Florian/AppData/Roaming/Sublime Text 3/Packages/User/communique/16-11-2020.html",
+		"/C/Users/Florian/AppData/Roaming/Sublime Text 3/Packages/User/style.css",
+		"/C/Users/Florian/AppData/Roaming/Sublime Text 3/Packages/User/javascript.js",
+		"/C/Users/Florian/AppData/Roaming/Sublime Text 3/Packages/User/index.html",
+		"/C/Users/Florian/Documents/New site/style.css",
+		"/C/Users/Florian/Documents/New site/index.html"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mediawiker_panel":
+	{
+		"height": 108.0
+	},
+	"pinned_build_system": "",
+	"project": "2020-2021.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 198.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
