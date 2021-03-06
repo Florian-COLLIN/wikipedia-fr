@@ -1,0 +1,18 @@
+[[Fichier:Cycling (road) pictogram.svg|150px|right]]
+{{Date|{{subst:#ifeq:{{subst:#time:j}}|1|1er|{{subst:#time:j}}}} {{subst:#time:F Y}}}} Suivez en direct la {{1er}} étape de Paris-Nice 2021. Les heures sont en UTC+1, heure de la course.
+
+
+{{Reportage original}}
+
+{{Publication
+|statut=développement
+|jour={{subst:CURRENTDAY}}
+|mois={{subst:CURRENTMONTHNAME}}
+|année={{subst:CURRENTYEAR}}
+}}
+
+{{Page Cyclisme}}
+
+[[Catégorie:Sport]]
+[[Catégorie:Cyclisme]]
+<!-- Remplacez ceci par vos catégories supplémentaires -->
